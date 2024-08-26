@@ -103,7 +103,7 @@ hr {
   text-shadow: 1.2px 1px #00000069;
   font-family: "Rubik", sans-serif;
   color: var(--color-cyan);
-  margin-top: 1.5rem;
+  margin-top: 1.55rem;
   font-size: 20px;
   padding: 5px 10px;
   font-weight: 400;
@@ -145,4 +145,39 @@ hr {
   }
 }
 
+/* mobile */
+
+@media (max-width: 520px) {
+  nav {
+    padding: 0;
+  }
+
+  .links {
+    font-size: 16px;
+    margin-top: 2.2rem;
+    padding: 2.5px 5px;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  nav h1 {
+    font-size: 0px;
+  }
+
+  .theme-div {
+    margin: 5PX;
+    padding: 2px;
+  }
+
+  .theme-text {
+    margin: 2px 0px 10px 0px;
+    font-size: 15px;
+  }
+
+  #theme-1, #theme-2, #theme-3 {
+    padding: 5px 5px;
+  }
+}
 
