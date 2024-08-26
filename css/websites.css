@@ -95,3 +95,7 @@ a:hover {
 a:active {
   color: rgba(186, 101, 62, 0.494);
 }
+
+nav a {
+  text-decoration: none;
+}
