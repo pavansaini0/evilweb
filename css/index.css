@@ -14,17 +14,25 @@ main {
   gap: 2.2rem 2.5rem;
 }
 
+.cool-nav {
+  background-color: var(--color-black);
+  border-radius: 12px 8px 12px 0px;
+  transition: all 2s;
+  transition: background-color 2s, color 2s;
+  color: var(--color-light);
+}
+
 section {
-  background-color: var(--color-dark-gray);
   display: flex;
   flex-wrap: wrap;
   flex: 45%;
   border-radius: 1rem;
+  container-type: inline-size;
   align-items: center;
-  min-width: 400px;
-  max-height: 150vh;
+  min-width: 280px;
+  max-height: 100vh;
   padding: 1rem 1.5rem;
-  box-shadow: 0px 0px 8px 4px rgba(41, 139, 174, 0.42);
+  box-shadow: 0px 0px 8px 4px rgba(41, 138, 174, 0.326);
   transition: all 5s;
   transition: background 0.5s, transform 1.3s;
 }section:hover {
@@ -43,7 +51,7 @@ section {
 }
 
 .img-div img {
-  max-width: 100%;
+  max-width: 99%;
 }
 
 strong {
@@ -54,5 +62,11 @@ strong {
 @media (max-width: 1100px) {
   main {
     padding: 0;
+  }
+}
+
+@container (max-width: 350px) {
+  strong {
+    font-size: 1rem;
   }
 }

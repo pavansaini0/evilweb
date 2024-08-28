@@ -7,9 +7,16 @@ main {
   align-items: start;
   margin: 0 2.5rem;
 }
+
+.cool-nav {
+  background-color: var(--color-black);
+  border-radius: 12px 8px 12px 0px;
+  transition: all 2s;
+  transition: background-color 2s, color 2s;
+  color: var(--color-light);
+}
  
 section {
-  background-color: var(--color-dark-gray);
   padding: 1rem 1.7rem;
   display: flex;
   justify-content: space-evenly;
@@ -17,7 +24,6 @@ section {
   flex: 29%;
   min-width: 320px;
   flex-wrap: wrap;
-   box-shadow: 0px 0px 8px 4px rgba(41, 139, 174, 0.42);
   border-radius: 1rem; 
   container-type: inline-size;
   transition: all 5s;
@@ -74,7 +80,6 @@ p {
 strong {
   transition: all 3s;
   color: rgba(175, 139, 139, 0.905);
-
 }
 
 @container (max-width: 420px){
@@ -86,7 +91,7 @@ strong {
 }
 
 a{
-  margin-top: 4px;
+  /* margin-top: 4px; */
   color: rgb(9, 140, 180);
 }
 a:hover {

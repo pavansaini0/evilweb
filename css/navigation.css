@@ -13,17 +13,14 @@
 
 body {
   font-family: "Comfortaa", sans-serif;
-  margin: 0 15rem 10rem 15rem;
+  margin: 0 10rem 0rem 10rem;
   background-color: var(--color-black);
   transition: background-color 2s;
 }
 
-.cool-nav {
-  background-color: var(--color-black);
-  border-radius: 12px 8px 12px 0px;
-  transition: all 2s;
-  transition: background-color 2s, color 2s;
-  color: var(--color-light);
+section {
+  box-shadow: 0px 0px 8px 4px rgba(41, 138, 174, 0.326);
+  background-color: var(--color-dark-gray);
 }
 
 :root {
@@ -45,10 +42,10 @@ body {
 .theme-div {
   display: flex;
   flex-flow: column;
-  margin: 10px 5px 5px 0px  ;
+  margin: 18px 0 5px 10px  ;
   border: 2px solid var(--color-cyan);
   border-radius: 5px;
-  padding: 1px 10px 8px 10px;
+  padding: 1px 5px 1px 2px;
   background-color: var(--color-black);
 }
 
@@ -57,7 +54,7 @@ body {
   font-family: "Rubik", sans-serif;
   color: var(--color-cyan);
   font-weight: 400;
-  font-size: large;
+  font-size: 0.9rem;
 }
 
 #theme-1, #theme-2, #theme-3{
@@ -88,9 +85,9 @@ div {
 
 h1 {
   color: var(--color-cyan);
-  font-size: 2rem;
-  margin: 1rem 0 0 2.8rem;
-  text-shadow: 1.6px 1.3px rgba(11, 98, 128, 0.857);
+  font-size: 1..4rem;
+  margin: 1.8rem 0 0 2.8rem;
+  text-shadow: 1.6px 1.3px rgba(154, 84, 49, 0.474);
   text-decoration: underline;
 }
 
@@ -101,9 +98,10 @@ hr {
 
 .links {
   text-shadow: 1.2px 1px #00000069;
+  text-decoration: none;
   font-family: "Rubik", sans-serif;
   color: var(--color-cyan);
-  margin-top: 1.55rem;
+  margin-top: 1.47rem;
   font-size: 20px;
   padding: 5px 10px;
   font-weight: 400;
@@ -112,6 +110,39 @@ hr {
 }
 .links:hover {
  color: rgba(243, 143, 112, 0.845);
+}
+
+footer {
+  margin: 2rem auto 1.2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  height: 7rem;
+  box-shadow: 0px 0px 8px 4px rgba(41, 138, 174,0.326);
+  width: 90%;
+  border-radius: 1rem;
+  background-color: var(--color-dark-gray);
+}
+
+.name {
+  font-family: "Comfortaa", sans-serif;
+  color:  var(--color-cyan);  
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+
+.privacy {
+  font-size: 1.1rem;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--color-light);
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+  text-decoration: underline;
+  transition: color 0.5s;
+} 
+.privacy:hover {
+  color: rgba(196, 114, 52, 0.636);
 }
 
 
@@ -180,4 +211,3 @@ hr {
     padding: 5px 5px;
   }
 }
-

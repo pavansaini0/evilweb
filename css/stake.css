@@ -8,13 +8,19 @@ main {
   margin: 0 2.5rem;
 }
 
+.cool-nav {
+  background-color: var(--color-black);
+  border-radius: 12px 8px 12px 0px;
+  transition: all 2s;
+  transition: background-color 2s, color 2s;
+  color: var(--color-light);
+}
+
 section {
-  background-color: rgba(25, 25, 38, 0.433);
   display: flex;
   flex-wrap: wrap;
   container-type: inline-size;
   flex: 45%;
-  box-shadow: rgb(5, 97, 137) 3px 3px 6px 0px inset, rgba(10, 76, 104, 0.5) -3px -3px 6px 1px inset;
   min-width: 320px;
   border-radius: 1rem;
   padding: 0.5rem 1.5rem;

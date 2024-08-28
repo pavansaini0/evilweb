@@ -1,18 +1,18 @@
-let theme1 = document.querySelector("#theme-1");
-let theme2 = document.querySelector("#theme-2");
-let theme3 = document.querySelector("#theme-3");
+const theme1 = document.querySelector("#theme-1");
+const theme2 = document.querySelector("#theme-2");
+const theme3 = document.querySelector("#theme-3");
 
-let body = document.querySelector("body");
-let sec = document.querySelectorAll("section")
-let coolNav = document.querySelector(".cool-nav");
-let nav = document.querySelector("nav")
-let themeDiv = document.querySelector(".theme-div")
+const body = document.querySelector("body");
+const sec = document.querySelectorAll("section")
+const coolNav = document.querySelector(".cool-nav");
+const nav = document.querySelector("nav")
+const themeDiv = document.querySelector(".theme-div")
+const footer = document.querySelector("footer")
 
-
-let light = "rgb(230, 219, 219)";
-let cyan = "rgb(7, 117, 125)";
-let gray = "rgb(57, 62, 70)";
-let black = "rgb(34, 40, 49)";
+const light = "rgb(230, 219, 219)";
+const cyan = "rgb(7, 117, 125)";
+const gray = "rgb(57, 62, 70)";
+const black = "rgb(34, 40, 49)";
 
 theme1.addEventListener("click",themeStyle1);
 theme2.addEventListener("click",themeStyle2);
@@ -29,6 +29,7 @@ function themeStyle1(){
   coolNav.style.color = light;
 
   nav.style.backgroundColor = gray;
+  footer.style.backgroundColor = gray;
 
   themeDiv.style.backgroundColor = black;
 
@@ -50,6 +51,7 @@ function themeStyle2(){
   coolNav.style.color = light;
 
   nav.style.backgroundColor = black;
+  footer.style.backgroundColor = black;
 
   themeDiv.style.backgroundColor = gray;
 
@@ -59,6 +61,7 @@ function themeStyle2(){
   theme2.style.backgroundColor = cyan;
   theme3.style.backgroundColor = black;
 }
+
 
 function themeStyle3(){
   body.style.backgroundColor = black;  
@@ -71,6 +74,7 @@ function themeStyle3(){
   coolNav.style.color = light;
 
   nav.style.backgroundColor = black;
+  footer.style.backgroundColor = black;
 
   themeDiv.style.backgroundColor = black;
 
