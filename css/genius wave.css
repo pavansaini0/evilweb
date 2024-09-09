@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1svw;
+}
+
+h1, h2 {
+    color: var(--dark-blue--);
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: var(--blue--);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+    padding: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Features List */
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+.features li strong {
+    color: #1E88E5;
+}
+
+/* Testimonials Styles */
+.testimonials blockquote {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 4px solid #1E88E5;
+}
+
+.testimonials span {
+    display: block;
+    margin-top: 10px;
+    color: #999;
+}
+
+/* Call to Action Styles */
+.cta {
+    text-align: center;
+    background: var(--dark-blue--);
+    color: var(--light--);
+    padding: 30px 0;
+}
+
+.cta h2 {
+  color: var(--light-blue--);
+}
+
+.cta .btn {
+    background: var(--blue--);
+    color:  var(--light--);
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5s;
+}
+
+.cta .btn:hover {
+    background: #ccc;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+
+.link {
+  background-color: var(--blue--);
+  padding: 1rem 1rem;
+  text-decoration: none;
+  color: var(--light--);
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  margin: 20px 0 0 0;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.link:hover {
+  background-color: var(--dark-blue--);
+  color: var(--light-blue--);
+}
+.link:active {
+  background-color: var(--light--);
+  color: var(--dark-blue--);
+}
+
+.img-div {
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
